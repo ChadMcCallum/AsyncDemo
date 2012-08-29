@@ -1,0 +1,14 @@
+﻿Installing Async CTP V3 can be a really headache, trust me I know it from my experience. I have also seen in the forum posts and all, many people in the community having trouble installing Async CTP.
+
+One week back I have installed Async CTP V3 in my laptop which have Visual Studio 2010 Professional with SP1 without any trouble and yesterday I tried to install it in my office computer. It was a really quick installation, but as quick it was, the installation was a total failure. The failure was, the installation was supposed to create a folder named "Microsoft Visual Studio Async CTP" in "My Documents" folder. For some reason it was not there. I tried two three times, but the result was the same.
+
+So last night after coming home, I uninstalled my Async CTP V3 installation and thought to reinstall and figure out what was going on. I ended up getting my nice little Visual Studio crashed.
+
+Just now I got everything up and running including Async CTP V3, so thought to write this post, so it would help you all to stay out of trouble while battling with Async CTP V3 installation. There are some key things that you should consider before installing Async CTP V3 on Visual Studio 2010 Professional with SP1.
+You can't have Microsoft ASP.NET MVC 3 installed.
+You can't have Microsoft ASP.NET MVC 3 - Visual Studio 2010 Tools installed.
+You can't have Microsoft ASP.NET Web Pages - Visual Studio 2010 Tools installed.
+You can't have NuGet installed.
+You can't have Update for Microsoft Visual Studio 2010 - KB2385361 installed.
+(I saw some really important articles have mentioned we can't have "Microsoft ASP.NET Web Pages" installed either. But now I have it installed, but still I got everything up and running perfectly. I am pretty sure they must have really good reason to put it there, but in my case since "Microsoft ASP.NET Web Pages" didn't give me any pain I am not putting it up there.)
+Here are the screen shots of my successful installation.
